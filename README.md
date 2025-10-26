@@ -1,4 +1,5 @@
 #Daniel Bartolo's Personal Website
 This is a personal website built using the Hack4Impact Starter Pack!
 
-Hi
+Hi (placeholder)
+[Visit it here!](https://DanielBartolo.github.io)
