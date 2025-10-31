@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color: white;
+  background-color: rgb(174, 131, 204);
   position: relative;
   min-height: 100vh;
   padding: 0;
@@ -74,9 +74,15 @@ main {
 /* CSS for Index */
 .about {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  padding: 20px;
   background-color: #dfb5ff;
-  border: 1px solid #ccc;
+  border: 1px solid #250236;
   border-radius: 5px;
+}
+
+.about-text{
+  flex: 1;
+  margin-left: 20px;
 }
