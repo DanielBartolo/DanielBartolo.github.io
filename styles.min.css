@@ -18,6 +18,10 @@ main {
   align-items: center;
 }
 
+.page-title {
+  text-align: center;
+}
+
 /* CSS for navigation bar */
 
 .navbar {
@@ -82,20 +86,53 @@ main {
   border-radius: 5px;
 }
 
-.about-text{
+.about-text {
   flex: 1;
   margin-left: 20px;
 }
 
-.about-text h2{
+.about-text h2 {
   font-size: 24px;
   margin-bottom: 10px;
 }
 
-.about-text p{
+.about-text p {
   font-size: 16px;
   line-height: 1.5;
-
 }
 
 /* CSS for Resume */
+a[download]{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 25px;
+
+}
+
+a[downlaod]:hover {
+  color:blue;
+}
+
+/*CSS for Contact */
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-family: Georgia;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #000000;
+  font-size: 16px;
+  resize: none;
+}
+
